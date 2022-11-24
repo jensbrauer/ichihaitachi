@@ -15,7 +15,7 @@ body {
     top: 0;
     left: 0;
     width:100vw;
-    height:100px;
+    height:70px;
     background-color: black;
     font-family: Roboto, sans-serif;
     color: white;
@@ -24,14 +24,14 @@ body {
     width:100vw;
     background-color: black;
     position: absolute;
-    top: 100px;
+    top: 70px;
     left: 0;
-    bottom: 100px;
+    bottom: 50px;
     overflow-y:scroll;
     overflow-x:hidden;
 }
 .page {
-    height:800px;
+    height:490px;
     width:100%;
     background-color: white;
 }
@@ -40,18 +40,19 @@ body {
 }
 #intro #center {
     margin:auto;
-    height:600px;
-    width:600px;
+    height:100%;
+    width:40%;
     background-image: url(../images/placeholder.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
+    background-position:center;
 }
 footer {
     position:absolute;
     bottom:0;
     left:0;
     width:100vw;
-    height: 100px;
+    height: 50px;
     background-color: black;
 }
 
@@ -75,4 +76,63 @@ footer {
     background-color:#921501;
     width:2px;
     height:40px;
+  }
+
+  #right {
+    border-top: 2px solid red;
+    margin-top: 100px;
+    width:33%;
+    float:right;
+  }
+  #right #textbox-right {
+    color: white;
+    float:left;
+  }
+  #textbox-right h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+  }
+  #textbox-right p {
+    font-size: 0.9rem;
+    font-family: Archivo, sans-serif;
+    padding-left: 0.2rem;
+    padding-right: 5rem;
+    padding-top: 0.2rem;
+    line-height: 1.3;
+  }
+  #left {
+    border-top: 2px solid red;
+    margin-top: 50px;
+    width:33%;
+    float:left;
+  }
+  #left #textbox-left {
+    color: white;
+    float:right;
+    text-align: right;
+  }
+  #textbox-left h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+  }
+  #textbox-left p {
+    font-size: 0.9rem;
+    font-family: Archivo, sans-serif;
+    padding-right: 0.2rem;
+    padding-left: 5rem;
+    padding-top: 0.2rem;
+    line-height: 1.3;
+  }
+  #about-itachi {
+    background-color: black;
+  }
+  iframe {
+    display: block;
+    filter: grayscale(60%);
+  }
+  iframe:hover {
+    display: block;
+    filter: grayscale(0%);
   }
