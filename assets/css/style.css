@@ -15,28 +15,48 @@ body {
     top: 0;
     left: 0;
     width:100vw;
-    height:100px;
     background-color: black;
     font-family: Roboto, sans-serif;
     color: white;
     display: inline;
     z-index: 2;
 }
+#header-logo {
+  text-align: center;
+  float:left;
+  line-height: 40px;
+  font-family: Roboto;
+  margin-left: 5px;
+}
+#header-nav {
+  width:310px;
+  float:right;
+  line-height: 40px;
+}
 #header-div li {
+  background-color: black;
   text-transform: uppercase;
   float: right;
-  padding-right: 20px;
+  margin-right: 15px;
   display: inline;
   list-style: none;
   color: white;
-  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#header-div li:hover {
+  color:black;
+  background-color: white;
+  font-size: 105%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #page-container {
     width:100vw;
     background-color: black;
     position: absolute;
-    top: 100px;
+    top: 40px;
     left: 0;
     bottom: 50px;
     overflow-y:scroll;
@@ -51,7 +71,7 @@ body {
     background-color: #921501;
 }
 #intro #center {
-    margin:auto;
+    margin-left:0px;
     height:90vh;
     background-image: url(../images/placeholder.png);
     background-repeat: no-repeat;
@@ -176,5 +196,34 @@ footer {
     color: white;
     width: 100%;
     height: 100%;
-    background-color: #921501;
+    background-color: black;
+  }
+
+  @media screen and (max-width:537px) {
+    #page-container {
+      top:80px      
+    }
+    #header-logo {
+      float: none;
+      margin: 0 auto;
+      font-size: 130%;
+    }
+    #header-nav {
+      width: 100%;
+    }
+    #header-nav ul {
+      display: flex;
+      align-items: stretch; /* Default */
+      justify-content: space-between;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #header-nav li {
+      display: block;
+      flex: 0 1 auto; /* Default */
+      list-style-type: none;
+      margin:0 10px;
+      line-height: 40px;
+    }
   }
