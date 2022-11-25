@@ -43,7 +43,7 @@ body {
     overflow-x:hidden;
 }
 .page {
-    height:490px;
+    min-height:500px;
     width:100%;
     background-color: white;
 }
@@ -52,12 +52,12 @@ body {
 }
 #intro #center {
     margin:auto;
-    height:100%;
-    width:40%;
+    height:500px;
+    width:336px;
     background-image: url(../images/placeholder.png);
     background-repeat: no-repeat;
     background-size:contain;
-    background-position:center;
+    background-position:bottom center;
 }
 footer {
     position:absolute;
@@ -141,4 +141,33 @@ footer {
   }
   iframe:hover {
     filter: grayscale(0%);
+  }
+  #left-table-container {
+    display: inline-block;
+    color: #921501;
+    width:40%;
+    min-width:320px;
+
+  }
+  #right-table-container {
+    display: inline-block;
+    color: black;
+    width:40%;
+    min-width:320px;
+  }
+  table {
+    text-align: left;
+    padding-left: 15px;
+  }
+  
+  table th{
+    text-align: left;
+    vertical-align: bottom;
+    padding-left: 15px;
+  }
+  table td{
+    text-align: left;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-top: 10px;
   }
