@@ -15,11 +15,23 @@ body {
     top: 0;
     left: 0;
     width:100vw;
-    height:70px;
+    height:100px;
     background-color: black;
     font-family: Roboto, sans-serif;
     color: white;
+    display: inline;
+    z-index: 2;
 }
+#header-div li {
+  text-transform: uppercase;
+  float: right;
+  padding-right: 20px;
+  display: inline;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
 #page-container {
     width:100vw;
     background-color: black;
@@ -87,6 +99,7 @@ footer {
   #right #textbox-right {
     color: white;
     float:left;
+    width: 336px;
   }
   #textbox-right h1 {
     text-transform: uppercase;
@@ -96,9 +109,6 @@ footer {
   #textbox-right p {
     font-size: 0.9rem;
     font-family: Archivo, sans-serif;
-    padding-left: 0.2rem;
-    padding-right: 5rem;
-    padding-top: 0.2rem;
     line-height: 1.3;
   }
   #left {
@@ -111,6 +121,7 @@ footer {
     color: white;
     float:right;
     text-align: right;
+    width: 336px;
   }
   #textbox-left h1 {
     text-transform: uppercase;
@@ -120,19 +131,14 @@ footer {
   #textbox-left p {
     font-size: 0.9rem;
     font-family: Archivo, sans-serif;
-    padding-right: 0.2rem;
-    padding-left: 5rem;
-    padding-top: 0.2rem;
     line-height: 1.3;
   }
   #about-itachi {
     background-color: black;
   }
   iframe {
-    display: block;
-    filter: grayscale(60%);
+    filter: grayscale(0%);
   }
   iframe:hover {
-    display: block;
     filter: grayscale(0%);
   }
