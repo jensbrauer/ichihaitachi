@@ -9,8 +9,8 @@ body {
     font-family: Archivo, sans-serif;
     overflow:hidden;
 }
-
-#header-div {
+/* ---------Top Navbar styling--------- */
+#nav-div {
     position: absolute;
     top: 0;
     left: 0;
@@ -21,19 +21,19 @@ body {
     display: inline;
     z-index: 2;
 }
-#header-logo {
+#nav-logo {
   text-align: center;
   float:left;
   line-height: 40px;
   font-family: Roboto;
   margin-left: 5px;
 }
-#header-nav {
+#nav-menu {
   width:310px;
   float:right;
   line-height: 40px;
 }
-#header-div li {
+#nav-div li {
   background-color: black;
   text-transform: uppercase;
   float: right;
@@ -44,7 +44,7 @@ body {
   transition: all 0.3s;
 }
 
-#header-div li:hover {
+#nav-div li:hover {
   color:black;
   background-color: white;
   font-size: 105%;
@@ -52,6 +52,8 @@ body {
   padding-right: 5px;
 }
 
+
+/* ---------page content display area styling--------- */
 #page-container {
     width:100vw;
     background-color: black;
@@ -63,10 +65,44 @@ body {
     overflow-x:hidden;
 }
 .page {
-    min-height:500px;
+    min-height:400px;
+    height:100%;
     width:100%;
     background-color: white;
 }
+footer {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100vw;
+    height: 50px;
+    background-color: black;
+}
+
+/* Scrollbar style for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color:black;
+}
+
+/* Scrollbar style for Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width:5px;
+  visibility: hidden;
+}
+
+*::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color:#921501;
+  width:2px;
+  height:40px;
+}
+
+
+/* ---------page content styling--------- */
 #intro {
     background-color: #921501;
 }
@@ -78,36 +114,8 @@ body {
     background-size:contain;
     background-position:center;
 }
-footer {
-    position:absolute;
-    bottom:0;
-    left:0;
-    width:100vw;
-    height: 50px;
-    background-color: black;
-}
 
-/* Works on Firefox */
-* {
-    scrollbar-width: thin;
-    scrollbar-color:black;
-  }
-  
-  /* Works on Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width:5px;
-    visibility: hidden;
-  }
-  
-  *::-webkit-scrollbar-track {
-    visibility: hidden;
-  }
-  
-  *::-webkit-scrollbar-thumb {
-    background-color:#921501;
-    width:2px;
-    height:40px;
-  }
+
 
   #right {
     border-top: 2px solid red;
