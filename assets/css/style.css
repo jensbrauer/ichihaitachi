@@ -165,7 +165,7 @@ iframe {
 }
 .about-textbox {
   float:left;
-  min-width: 310px;
+  width: 310px;
   text-align: left;
   padding-left: 3px;
 }
