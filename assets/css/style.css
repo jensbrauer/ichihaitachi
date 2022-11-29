@@ -78,6 +78,38 @@ footer {
     height: 50px;
     background-color: #24211D;
 }
+/* -------Warning page--------- */
+
+#intro #warning-left {
+  width:50%;
+  min-width: 320px;
+  height:100%;
+  background-image: url(../images/firstpageitachi.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:bottom right;
+}
+  #warning-right {
+    width: 50%;
+    min-width: 315px;
+    border-top: 2px solid black;
+    margin-top: 150px;
+    float:right;
+    display: inline;
+    background-color:rgba(217, 217, 217, 0.95);
+  }
+  #warning-right #textbox-right {
+    color:red;
+    float:left;
+    width: 315px;
+  }
+  
+  #warning-right #textbox-right p {
+    color:red;
+    float:left;
+    width: 315px;
+    padding: 10px 0;
+  }
 
 /* Scrollbar style for Firefox */
 * {
@@ -123,7 +155,6 @@ footer {
     float:right;
     display: inline;
     background-color:rgba(217, 217, 217, 0.95);
-    
   }
   #right #textbox-right {
     color:#24211D;

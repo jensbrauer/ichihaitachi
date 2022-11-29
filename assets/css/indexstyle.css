@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Roboto:wght@300&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    border:none;
+}
+body {
+    font-family: Archivo, sans-serif;
+    overflow:hidden;
+}
+/* ---------Top Navbar styling--------- */
+#nav-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+    background-color: #24211D;
+    font-family: Roboto, sans-serif;
+    color: white;
+    display: inline;
+}
+#nav-logo {
+  float:left;
+  line-height: 40px;
+  font-family: Roboto;
+  margin-left: 5px;
+  font-size: 180%;
+}
+
+
+/* ---------page content display area styling--------- */
+#page-container {
+    width:100vw;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    bottom: 50px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+.page {
+    min-height:400px;
+    height:100%;
+    width:100%;
+    background-color:#D9D9D9;
+}
+footer {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100vw;
+    height: 50px;
+    background-color: #24211D;
+}
+/* -------Warning page--------- */
+
+#intro #warning-left {
+  width:50%;
+  min-width: 420px;
+  height:100%;
+  background-image: url(../images/firstpageitachi.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:bottom right;
+}
+  #warning-right {
+    width: 50%;
+    min-width: 315px;
+    border-top: 2px solid black;
+    margin-top: 150px;
+    float:right;
+    display: inline;
+  }
+  #warning-right #textbox-right {
+    color:red;
+    float:left;
+    width: 100%;
+    text-align: left;
+  }
+  
+  #warning-right #textbox-right p {
+    color:red;
+    float:left;
+    padding: 10px 0;
+  }
+
+/* Scrollbar style for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color:black;
+}
+
+/* Scrollbar style for Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width:5px;
+  visibility: hidden;
+}
+
+*::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color:#921501;
+  width:2px;
+  height:40px;
+}
+
+
+  #textbox-right h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;
+    padding: 0 2.5px 0 2.5px;
+  }
+
+
+
+@media screen and (max-width:670px) {
+  #warning-right {
+    width: 100%;
+    border-bottom: 2px solid #24211D;
+    border-top: 2px solid #24211D;
+    background-color:rgba(217, 217, 217, 0.95);
+  }
+  #warning-right #textbox-right {
+    float: right;
+    text-align: center;
+  }
+  }
