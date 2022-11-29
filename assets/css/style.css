@@ -56,7 +56,7 @@ body {
 /* ---------page content display area styling--------- */
 #page-container {
     width:100vw;
-    background-color: black;
+    background-color:#D9D9D9;
     position: absolute;
     top: 40px;
     left: 0;
@@ -81,7 +81,7 @@ footer {
 /* Scrollbar style for Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color:black;
+  scrollbar-color:#24211D;
 }
 
 /* Scrollbar style for Chrome, Edge, and Safari */
@@ -95,7 +95,7 @@ footer {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color:#921501;
+  background-color:#24211D;
   width:2px;
   height:40px;
 }
@@ -158,8 +158,10 @@ footer {
   .video-card {
     margin:10px auto;
     display:inline-block;
-    border-top: 2px solid #D9D9D9;
-    color: #D9D9D9;
+    padding: 2px;
+    border-radius: 3px;
+    color:#24211D;
+    background-color:#D9D9D9;
   }
 .iframe-wrapper {
   width:420px;
@@ -170,6 +172,7 @@ iframe {
   width:420px;
   height:236.25px;
   float: right;
+  border-radius: 0 3px 3px 0;
 }
 .about-textbox {
   float:left;
@@ -185,18 +188,17 @@ iframe {
     float: left;
     color: #921501;
     width:50%;
-    min-width:320px;
 
   }
   #right-table-container {
-    float: left;
+    float: right;
     color: black;
     width:50%;
-    min-width:320px;
   }
   table {
     text-align: left;
-    padding-left: 0 15px;
+    padding: 0 15px 0 0;
+    margin-bottom: 20px;
   }
   
   table th{
@@ -218,6 +220,23 @@ iframe {
     height: 100%;
     background-color: black;
   }
+
+  @media screen and (max-width:1010px) {
+    
+  #right-table-container {
+    float: left;
+    color: black;
+    width:100%;
+    min-width:320px;
+  } 
+  #left-table-container {
+    float: left;
+    color: #921501;
+    width:100%;
+    min-width:320px;
+
+  }
+    }
 
   @media screen and (max-width:612px) {
     #page-container {
@@ -254,3 +273,13 @@ iframe {
     border-top: 2px solid #24211D;
   }
   }
+  @media screen and (max-width:760px) {
+    .iframe-wrapper {
+      width:280px;
+      height:157.5px;
+    }
+    iframe {
+      width:280px;
+      height:157.5px;
+    }
+    }
