@@ -163,6 +163,12 @@ footer {
     color:#24211D;
     background-color:#D9D9D9;
   }
+#pseudo-iframe {
+  background-image: url(../images/pseudoplaceholder.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
 .iframe-wrapper {
   width:420px;
   height:236.25px;
