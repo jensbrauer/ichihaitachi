@@ -2,7 +2,7 @@
 
 The Uchiha Itachi project is aimed at showcasing the character Uchiha itachi. It is meant for fans of the anime series and the character himself to consume selected content focused on the character, as well as for people unfamiliar with anime and manga who can get an introduction to a fascinating character, as well as amazing artwork, and hopefuly awaken an interest in the genre.
 
-![Responsice Mockup](#)
+![Responsice Mockup](assets/media/viewportexample.PNG)
 
 ## Features 
 
@@ -16,7 +16,6 @@ Apart from this, the site has a header and a footer, both in fixed positions to 
   - Featured as a fixed item always displaying at the topp of the page, in order for the user to always have navigation options at hand.
   - The navigationbar in the first index warning page does not contain the navigation links to page sections, in order to not distract the user from the warning message. 
 
-![Nav Bar](#)
 
 - __The index warning page__
 
@@ -25,39 +24,29 @@ Apart from this, the site has a header and a footer, both in fixed positions to 
   included in the footer is also links to external resources where you can read the manga and watch the anime series.
   - This page has its own css stylesheet as much of the content initialy differed from the main page. This could probably be better organized.
 
-![Landing Page](#)
-
 
 - __The main page header__
 
   - The header section is mainly created to highlight the amazing artwork highlight the genre for the content.
   - It also displays the background and purpose of the page and what the user can expect to find. 
 
-![Landing Page](#)
 
 - __About Section__
 
   - The about section allows the user to find content that explaines more about the context and story of character Uchiha Itachi.  
   - This can spark an interest in the genre, the character and for the series.
 
-![Club Ethos](#)
 
 - __Episodes__
 
   - This section will allow the user to navigate through the series in order to find episodes where the character is featured. For example, a user who watched the series a long time ago might find it useful to navigate to specific parts where the Itachi is featured in the series. 
 
-![Meetup Times](#)
 
 - __The Footer__ 
 
   - The footer section includes links to the external pages where one can read the manga or watch the anime series. 
   - The footer is also fixed and always on display for the user. To always encourage them to get into reading or watching.
 
-![Footer](#)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
@@ -89,27 +78,34 @@ No unfixed bugs have been found during testing.
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- The site was deployed to GitHub pages using the following steps: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the left side menu, navigate to pages
+  - Select main branch and hit save.
+  - As the page build is finished, a link to the page is provided in the pages section.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://jensbrauer.github.io/ichihaitachi/ 
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The video content displayed on the page is provided by youtubers featured below.
+- Videos iframed from youtube creators
+  - [samuelmeller1484](https://www.youtube.com/@samuelmeller1484)
+  - [SagesRain](https://www.youtube.com/@SagesRain)
+  - [tehsparkcjnorebirth](https://www.youtube.com/@tehsparkcjnorebirth3761)
+
+- Instructions on how to implement scrollbar styling was taken from [This YouTube Tutorial](https://www.youtube.com/watch?v=lvKK2fs6h4I)
+
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the home and sign up page are from [Claudia Frosini](https://www.kindpng.com/userpngs/734/) and [Simona Muccino](https://www.kindpng.com/userpngs/744/) at [KindPng](https://www.kindpng.com/).
+
+
+
+
+
