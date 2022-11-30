@@ -142,11 +142,13 @@ footer {
   float: left;
   height: 100%;
   width: 50%;
+  transition: all 0.3s;
 }
 #footer-right {
   float: right;
   height: 100%;
   width: 50%;
+  transition: all 0.3s;
 }
 #footer-right:hover {
   color: black;
