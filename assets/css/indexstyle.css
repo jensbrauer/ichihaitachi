@@ -11,6 +11,29 @@ body {
   overflow:hidden;
 }
 
+
+/* Scrollbar style for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color:#24211D;
+}
+
+/* Scrollbar style for Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width:5px;
+  visibility: hidden;
+}
+
+*::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color:#24211D;
+  width:2px;
+  height:40px;
+}
+
 /* ---------Top Navbar styling--------- */
 #nav-div {
   position: absolute;
@@ -40,7 +63,7 @@ body {
   top: 40px;
   left: 0;
   bottom: 40px;
-  overflow: hidden;
+  overflow-y: auto;
 }
 .page {
   min-height:400px;
@@ -96,6 +119,8 @@ footer {
   margin-top: 150px;
   float:right;
   display: inline;
+  background-color:rgba(217, 217, 217, 0.95);
+
 }
 #warning-right #textbox-right {
   color:red;
