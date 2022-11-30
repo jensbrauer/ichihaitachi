@@ -28,7 +28,8 @@ h4 {
   text-transform: uppercase;
   font-size: 0.9rem;
   font-family: Roboto, sans-serif;
-  line-height: 1.5;
+  line-height: 2.5;
+  margin: 0 15px 0 15px;
 }
 p {
   font-size: 0.9rem;
@@ -93,7 +94,7 @@ p {
   position: absolute;
   top: 40px;
   left: 0;
-  bottom: 50px;
+  bottom: 40px;
   overflow-y:scroll;
   overflow-x:hidden;
 }
@@ -128,10 +129,20 @@ footer {
   bottom:0;
   left:0;
   width:100vw;
-  height: 50px;
+  height: 40px;
   background-color: #24211D;
 }
-
+#footer-left {
+  text-align: right;
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+#footer-right {
+  float: right;
+  height: 100%;
+  width: 50%;
+}
 /* Scrollbar style for Firefox */
 * {
   scrollbar-width: thin;

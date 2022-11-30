@@ -39,7 +39,7 @@ body {
   position: absolute;
   top: 40px;
   left: 0;
-  bottom: 50px;
+  bottom: 40px;
   overflow: hidden;
 }
 .page {
@@ -54,8 +54,19 @@ footer {
   bottom:0;
   left:0;
   width:100vw;
-  height: 50px;
+  height: 40px;
   background-color: #24211D;
+}
+#footer-left {
+  text-align: right;
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+#footer-right {
+  float: right;
+  height: 100%;
+  width: 50%;
 }
 
 /* -------Warning page--------- */
@@ -98,9 +109,10 @@ h2 {
 
 h4 {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: Roboto, sans-serif;
-  padding: 0 2.5px 0 2.5px;
+  line-height: 2.5;
+  margin: 0 15px 0 15px;
 }
 
 
