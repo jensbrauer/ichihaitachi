@@ -1,35 +1,43 @@
-# Love Running
+# The Uchiha Itachi Project
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+The Uchiha Itachi project is aimed at showcasing the character Uchiha itachi. It is meant for fans of the anime series and the character himself to consume selected content focused on the character, as well as for people unfamiliar with anime and manga who can get an introduction to a fascinating character, as well as amazing artwork, and hopefuly awaken an interest in the genre.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](#)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The website has an initial warning page as well as a main website that contains all content devided into 3 sections.
+Apart from this, the site has a header and a footer, both in fixed positions to always be accesible to the user.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured as a fixed item always displaying at the topp of the page, in order for the user to always have navigation options at hand.
+  - The navigationbar in the first index warning page does not contain the navigation links to page sections, in order to not distract the user from the warning message. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](#)
 
-- __The landing page image__
+- __The index warning page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The index page is a warning to the user, and allows the user to think twice before entering. Perhaps a user who is fascinated by the character but have only come halfway through the series, would choose to not enter the main page. 
+  - This page also introduces the genre and awakens an interest by displaying some beautiful artwork.
+  included in the footer is also links to external resources where you can read the manga and watch the anime series.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](#)
 
-- __Club Ethos Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+- __The main page header__
+
+  - The header section is mainly created to highlight the amazing artwork highlight the genre for the content.
+  - It also displays the background and purpose of the page and what the user can expect to find. 
+
+![Landing Page](#)
+
+- __About Section__
+
+  - The about section allows the user to find content that explaines more about the context and story of character Uchiha Itachi.  
+  - This can spark an interest in the genre, the character and for the series.
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
