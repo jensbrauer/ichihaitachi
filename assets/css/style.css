@@ -160,7 +160,6 @@ footer {
 /* Scrollbar style for Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color:#24211D;
 }
 
 /* Scrollbar style for Chrome, Edge, and Safari */
