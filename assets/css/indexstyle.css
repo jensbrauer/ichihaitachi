@@ -111,6 +111,7 @@ footer {
 }
 
 h2 {
+  clear: both;
   text-transform: uppercase;
   font-family: Roboto, sans-serif;
   font-size: 2.5rem;
